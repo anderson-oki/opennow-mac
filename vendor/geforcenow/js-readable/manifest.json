@@ -1,0 +1,295 @@
+{
+  "sourceDirectory": "vendor/geforcenow/js",
+  "outputDirectory": "vendor/geforcenow/js-readable",
+  "formatter": {
+    "name": "prettier",
+    "version": "3.6.2",
+    "options": {
+      "javascript": {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "parser": "babel"
+      },
+      "json": {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "parser": "json"
+      }
+    }
+  },
+  "files": [
+    {
+      "source": "vendor/geforcenow/js/0359d145d6679053101824ec3f9fe17b78ff26cb.js",
+      "output": "vendor/geforcenow/js-readable/0359d145d6679053101824ec3f9fe17b78ff26cb.js",
+      "sourceBytes": 453524,
+      "sourceSha256": "ee56c528bbac97d5086dcc0d937c83271fc52ab114f50a296e5248f0c7918bc9",
+      "outputBytes": 902336,
+      "outputSha256": "afd37051c68c01d36ef22d4427578cdcbd9e15456eace529be59dbc52a87e020",
+      "sourceMappingURLs": [
+        "data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(i)))),\""
+      ]
+    },
+    {
+      "source": "vendor/geforcenow/js/0eb058783c6ef832bc958988f5e54017dc43e0f1.js",
+      "output": "vendor/geforcenow/js-readable/0eb058783c6ef832bc958988f5e54017dc43e0f1.js",
+      "sourceBytes": 18130,
+      "sourceSha256": "e8c8b39ec0d1a0ace0fb09e7ab889975e14cc9955d0fc134c2c97f17c6a7ff5d",
+      "outputBytes": 32400,
+      "outputSha256": "96c0660f593b14e8398b3ddb8bc6c2b725f67754af02f7927db3484f0d783a87",
+      "sourceMappingURLs": ["v1.9.8-669.c07e06084588b09f8f9b.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/115852c98427b32a883a9ad3d0475ed645cb09e3.js",
+      "output": "vendor/geforcenow/js-readable/115852c98427b32a883a9ad3d0475ed645cb09e3.js",
+      "sourceBytes": 10383,
+      "sourceSha256": "3efe9206d176eced52ce974430889b80f8114e9de13b76efd5a2e1d6ed41eafa",
+      "outputBytes": 28166,
+      "outputSha256": "eb867bfcb145c300a572292c584eeaa751d8d59279007b90289b7f797b3f4880",
+      "sourceMappingURLs": ["v1.9.8-88.219261712f36846bea08.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/368d57496a44157ba5c15b9f40deaa49ba7dbdbf.js",
+      "output": "vendor/geforcenow/js-readable/368d57496a44157ba5c15b9f40deaa49ba7dbdbf.js",
+      "sourceBytes": 12571,
+      "sourceSha256": "be39a043de472746a3cf29e0afdfd0f7b1c7c95650a6efc561d0d8f4ddc656b5",
+      "outputBytes": 26160,
+      "outputSha256": "7db8a08097b7d8350536acd94eec96fa6b77ad9c3afc822f075bd9485b7f813d",
+      "sourceMappingURLs": ["v1.9.8-184.d11ee1a6e4ee9c5012ca.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/44.9119bbd71d18e19fa3db.js",
+      "output": "vendor/geforcenow/js-readable/44.9119bbd71d18e19fa3db.js",
+      "sourceBytes": 8430,
+      "sourceSha256": "24684c6338a237e7fd3561670e4a6fa05d7c79a129f5e7540db0e7c4219e9c61",
+      "outputBytes": 19946,
+      "outputSha256": "bfcd37772bc9ea2e3df8bc9660aa8120d3069116c9bdc2effbc24f1383c4abd1",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/599.bfb696c039ce2bd0.js",
+      "output": "vendor/geforcenow/js-readable/599.bfb696c039ce2bd0.js",
+      "sourceBytes": 8613,
+      "sourceSha256": "b507de7a45245a2c368d3796668c2a6d69574f5332d449a9309cbb710753915c",
+      "outputBytes": 16868,
+      "outputSha256": "7b4ecd3965f3b168ae4c5f87116b9446263fc4fc1bea6600a14c4b9da51f5799",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/614.e593ea551ae52c71.js",
+      "output": "vendor/geforcenow/js-readable/614.e593ea551ae52c71.js",
+      "sourceBytes": 2213550,
+      "sourceSha256": "8f829eb65d65e85acbab38e19ba6ed0ed898fde126fa917417a2ab3e558b5856",
+      "outputBytes": 3725800,
+      "outputSha256": "5e4f7a15a5143d703676247205dfd41cdeed05d474cb29c900a5127160e25648",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/6152b8bf95f4c10be8a99cd1d7ac041b1c1f2fd0.js",
+      "output": "vendor/geforcenow/js-readable/6152b8bf95f4c10be8a99cd1d7ac041b1c1f2fd0.js",
+      "sourceBytes": 1141,
+      "sourceSha256": "8f975bc3dfae7b59b77121a522f245a6c0ec2967fedb829b857cf012c1601742",
+      "outputBytes": 1821,
+      "outputSha256": "cd502db3594c141048115f983f467760bed7b58fa7afb37b24d45061fe492f28",
+      "sourceMappingURLs": ["v1.9.8-605.a9d8ca6d408412df3c59.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/65.3aba320076f7b6f2.js",
+      "output": "vendor/geforcenow/js-readable/65.3aba320076f7b6f2.js",
+      "sourceBytes": 40304,
+      "sourceSha256": "727b42dbfa7247e61b456d8833931bf29963bab99fdbc71d3aadb7f8649e911b",
+      "outputBytes": 107217,
+      "outputSha256": "520d97a88d16a0614a14d1fbc08956b9fb198fa46911e8c2886c1a921d43792f",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/7807159bd5184c51e698bfd830efe696723d7e3e.js",
+      "output": "vendor/geforcenow/js-readable/7807159bd5184c51e698bfd830efe696723d7e3e.js",
+      "sourceBytes": 38704,
+      "sourceSha256": "31734470e1fa046f882d8f98cbb175019211893610c537616d7012c6e1a668c5",
+      "outputBytes": 82935,
+      "outputSha256": "e48a6e6364abeac7bea00c356b89b04cce5a0be6b465d5ddc8f34b1986d652fe",
+      "sourceMappingURLs": ["starfleet.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/862.18d85c1438a340a2.js",
+      "output": "vendor/geforcenow/js-readable/862.18d85c1438a340a2.js",
+      "sourceBytes": 20453,
+      "sourceSha256": "c488c3755c0b8dba5221624def2b8469c456dc4e69b0dc1dbe134b67451a6879",
+      "outputBytes": 39709,
+      "outputSha256": "4d3ecb1923c9187c57964739dbe782874838fb100ee14904ef399423a22fb3e3",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/bbeb3c2be788641fc794ffb569d2a86b11a222f0.js",
+      "output": "vendor/geforcenow/js-readable/bbeb3c2be788641fc794ffb569d2a86b11a222f0.js",
+      "sourceBytes": 15782,
+      "sourceSha256": "3e488a26892dbf7492bdf637573132632c46c6dd4ce468d5ab6f00d5482710ad",
+      "outputBytes": 33786,
+      "outputSha256": "a771a5ccbefe947ca9796759d690ffb1ed4741967cfd30f2dbbceb923a8a32b8",
+      "sourceMappingURLs": ["v1.9.8-341.d9c11be1d146e5cf6e53.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/bundle-search-prod-pub-v3.1.js",
+      "output": "vendor/geforcenow/js-readable/bundle-search-prod-pub-v3.1.js",
+      "sourceBytes": 453524,
+      "sourceSha256": "ee56c528bbac97d5086dcc0d937c83271fc52ab114f50a296e5248f0c7918bc9",
+      "outputBytes": 902336,
+      "outputSha256": "afd37051c68c01d36ef22d4427578cdcbd9e15456eace529be59dbc52a87e020",
+      "sourceMappingURLs": [
+        "data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(i)))),\""
+      ]
+    },
+    {
+      "source": "vendor/geforcenow/js/c7c78801f5eca6f8c7128d0a16e4970054f4392f.js",
+      "output": "vendor/geforcenow/js-readable/c7c78801f5eca6f8c7128d0a16e4970054f4392f.js",
+      "sourceBytes": 6399,
+      "sourceSha256": "1530be4a3afdf57aa12a218a291e165d63e43d0fd62f0ae91995becdc0cae780",
+      "outputBytes": 13423,
+      "outputSha256": "1cada3338ebb2368e402992badacc724b57ad04bc631761cdf71d8f59b79ac59",
+      "sourceMappingURLs": ["v1.9.8-264.e33d70c95b6feba10b05.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/common.1bb8089756535934.js",
+      "output": "vendor/geforcenow/js-readable/common.1bb8089756535934.js",
+      "sourceBytes": 831,
+      "sourceSha256": "13bbe39f74dcbf33c3cf17f490de058da8b1b70be300a593fef746c6c8431ac5",
+      "outputBytes": 1755,
+      "outputSha256": "ed9f1be6519d98a10bd5f7501a29e15a66014035aac7e728d762f5705cb65d75",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/hints.js",
+      "output": "vendor/geforcenow/js-readable/hints.js",
+      "sourceBytes": 27249,
+      "sourceSha256": "757d12d538134f94ab72d5a10ecf6afa6f6b4f55fac445d0dd28301e7ab9727f",
+      "outputBytes": 58659,
+      "outputSha256": "784f74830a15a71fd7d0162deed71bbec5cd2385fa7ca253fa27b63e96775b1c",
+      "sourceMappingURLs": ["hints.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/main.026ecf752c8007b0.js",
+      "output": "vendor/geforcenow/js-readable/main.026ecf752c8007b0.js",
+      "sourceBytes": 3807783,
+      "sourceSha256": "fe1f440abc464d350aa5a6a988538ef70d42445cafb5c43891de570166b41d1e",
+      "outputBytes": 6494658,
+      "outputSha256": "4a10ce8943a9b34b20955b3fcd9770abd6e0b62e09e77a20cc22937a8e6628b3",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/polyfills.0119af3bec0a10f7.js",
+      "output": "vendor/geforcenow/js-readable/polyfills.0119af3bec0a10f7.js",
+      "sourceBytes": 65628,
+      "sourceSha256": "19ebd667b5f7d20412a07929ced0690b3951851a22bf18440a2f3322acecb5a9",
+      "outputBytes": 141250,
+      "outputSha256": "220d9304bbea097d91ed5188d18d93115e5faca2c5c6f4ab5c478271fd494d5c",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/raw__play__geforcenow__com_____mall__handle-gdn-util.js",
+      "output": "vendor/geforcenow/js-readable/raw__play__geforcenow__com_____mall__handle-gdn-util.js",
+      "sourceBytes": 638,
+      "sourceSha256": "b372d0079807ccc9b87badaae78c80979cf916430bb73ae3a200a1e42ce670d0",
+      "outputBytes": 634,
+      "outputSha256": "754a3ea5ef0df73fc10b5daeea0dbaa01cabcf8dcde76cfe6b9f82d4cac9d600",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/raw__www__nvidia__com_____assets__starfleet-auth__starfleet.js",
+      "output": "vendor/geforcenow/js-readable/raw__www__nvidia__com_____assets__starfleet-auth__starfleet.js",
+      "sourceBytes": 91099,
+      "sourceSha256": "7ebfc4e8455ce70cec0b3d52ee5603d50e4090b94b75f0ff150453d13986e9e6",
+      "outputBytes": 167403,
+      "outputSha256": "a0c4c9e79ba02d02e48a9df3db3069d6bd900877e05264ace5eab1328cf8a14a",
+      "sourceMappingURLs": ["starfleet.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/runtime.41484bfec6975734.js",
+      "output": "vendor/geforcenow/js-readable/runtime.41484bfec6975734.js",
+      "sourceBytes": 5856,
+      "sourceSha256": "5e8cad5fe137cf8bf1d7b0d5ba08cecb9a9e92e58e22a63991d12e31b498322b",
+      "outputBytes": 9273,
+      "outputSha256": "9f4fe18dd9b71e051f35886d28d4464d02073858ce8de8a3179b11bb04bf6f97",
+      "sourceMappingURLs": []
+    },
+    {
+      "source": "vendor/geforcenow/js/starfleet.js",
+      "output": "vendor/geforcenow/js-readable/starfleet.js",
+      "sourceBytes": 38704,
+      "sourceSha256": "31734470e1fa046f882d8f98cbb175019211893610c537616d7012c6e1a668c5",
+      "outputBytes": 82935,
+      "outputSha256": "e48a6e6364abeac7bea00c356b89b04cce5a0be6b465d5ddc8f34b1986d652fe",
+      "sourceMappingURLs": ["starfleet.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-184.d11ee1a6e4ee9c5012ca.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-184.d11ee1a6e4ee9c5012ca.js",
+      "sourceBytes": 12571,
+      "sourceSha256": "be39a043de472746a3cf29e0afdfd0f7b1c7c95650a6efc561d0d8f4ddc656b5",
+      "outputBytes": 26160,
+      "outputSha256": "7db8a08097b7d8350536acd94eec96fa6b77ad9c3afc822f075bd9485b7f813d",
+      "sourceMappingURLs": ["v1.9.8-184.d11ee1a6e4ee9c5012ca.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-264.e33d70c95b6feba10b05.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-264.e33d70c95b6feba10b05.js",
+      "sourceBytes": 6399,
+      "sourceSha256": "1530be4a3afdf57aa12a218a291e165d63e43d0fd62f0ae91995becdc0cae780",
+      "outputBytes": 13423,
+      "outputSha256": "1cada3338ebb2368e402992badacc724b57ad04bc631761cdf71d8f59b79ac59",
+      "sourceMappingURLs": ["v1.9.8-264.e33d70c95b6feba10b05.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-341.d9c11be1d146e5cf6e53.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-341.d9c11be1d146e5cf6e53.js",
+      "sourceBytes": 15782,
+      "sourceSha256": "3e488a26892dbf7492bdf637573132632c46c6dd4ce468d5ab6f00d5482710ad",
+      "outputBytes": 33786,
+      "outputSha256": "a771a5ccbefe947ca9796759d690ffb1ed4741967cfd30f2dbbceb923a8a32b8",
+      "sourceMappingURLs": ["v1.9.8-341.d9c11be1d146e5cf6e53.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-605.a9d8ca6d408412df3c59.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-605.a9d8ca6d408412df3c59.js",
+      "sourceBytes": 1141,
+      "sourceSha256": "8f975bc3dfae7b59b77121a522f245a6c0ec2967fedb829b857cf012c1601742",
+      "outputBytes": 1821,
+      "outputSha256": "cd502db3594c141048115f983f467760bed7b58fa7afb37b24d45061fe492f28",
+      "sourceMappingURLs": ["v1.9.8-605.a9d8ca6d408412df3c59.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-669.c07e06084588b09f8f9b.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-669.c07e06084588b09f8f9b.js",
+      "sourceBytes": 18130,
+      "sourceSha256": "e8c8b39ec0d1a0ace0fb09e7ab889975e14cc9955d0fc134c2c97f17c6a7ff5d",
+      "outputBytes": 32400,
+      "outputSha256": "96c0660f593b14e8398b3ddb8bc6c2b725f67754af02f7927db3484f0d783a87",
+      "sourceMappingURLs": ["v1.9.8-669.c07e06084588b09f8f9b.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/v1.9.8-88.219261712f36846bea08.js",
+      "output": "vendor/geforcenow/js-readable/v1.9.8-88.219261712f36846bea08.js",
+      "sourceBytes": 10383,
+      "sourceSha256": "3efe9206d176eced52ce974430889b80f8114e9de13b76efd5a2e1d6ed41eafa",
+      "outputBytes": 28166,
+      "outputSha256": "eb867bfcb145c300a572292c584eeaa751d8d59279007b90289b7f797b3f4880",
+      "sourceMappingURLs": ["v1.9.8-88.219261712f36846bea08.js.map"]
+    },
+    {
+      "source": "vendor/geforcenow/js/vendor.21f80c4cffa8f4b6.js",
+      "output": "vendor/geforcenow/js-readable/vendor.21f80c4cffa8f4b6.js",
+      "sourceBytes": 2961449,
+      "sourceSha256": "10f5e041b1b646a80e09bfeb7aa3293088a0b6cde7a09b9038cdc0911e19dfbc",
+      "outputBytes": 5791518,
+      "outputSha256": "ab096faaca32cfee5484c694a81af4c9397fc854e1fd085f48abb3f0295f1fa2",
+      "sourceMappingURLs": ["divider-styles.css.map"]
+    }
+  ]
+}
