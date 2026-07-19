@@ -168,10 +168,10 @@ struct SteamControllerTestView: View {
             )
             .position(x: 354, y: 240)
 
-            trackpadView
+            trackpadView(model.snapshot.leftPad)
                 .rotationEffect(.degrees(-14))
                 .position(x: 168, y: 330)
-            trackpadView
+            trackpadView(model.snapshot.rightPad)
                 .rotationEffect(.degrees(14))
                 .position(x: 392, y: 330)
 
@@ -379,11 +379,17 @@ struct SteamControllerTestView: View {
         .shadow(color: pressed ? Color.openNowGreen.opacity(0.4) : .clear, radius: 5)
     }
 
-    private var trackpadView: some View {
+    private func trackpadView(_ pad: SteamControllerTrackpadState) -> some View {
         ZStack {
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color.white.opacity(0.045))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.white.opacity(0.14), lineWidth: 1))
+                .fill(pad.pressed ? Color.openNowGreen.opacity(0.12) : Color.white.opacity(0.045))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12).stroke(
+                        pad.pressed ? Color.openNowGreen.opacity(0.8) : (pad.touched ? Color.openNowGreen.opacity(0.45) : Color.white.opacity(0.14)),
+                        lineWidth: pad.pressed ? 1.5 : 1
+                    )
+                )
+                .shadow(color: pad.pressed ? Color.openNowGreen.opacity(0.4) : .clear, radius: 6)
             Canvas { context, size in
                 let count = 5
                 for row in 0..<count {
@@ -398,6 +404,14 @@ struct SteamControllerTestView: View {
                 }
             }
             .clipShape(RoundedRectangle(cornerRadius: 12))
+
+            if pad.touched {
+                Circle()
+                    .fill(pad.pressed ? Color.openNowGreen : Color.openNowGreen.opacity(0.6))
+                    .frame(width: 12, height: 12)
+                    .shadow(color: Color.openNowGreen.opacity(0.5), radius: 4)
+                    .offset(x: CGFloat(pad.x) * 30, y: CGFloat(-pad.y) * 30)
+            }
         }
         .frame(width: 76, height: 76)
     }
@@ -447,6 +461,10 @@ struct SteamControllerTestView: View {
             axisBar("RY", value: model.snapshot.rightStickY)
             axisBar("LT", value: model.snapshot.leftTrigger * 2 - 1, raw: model.snapshot.leftTrigger, unsigned: true)
             axisBar("RT", value: model.snapshot.rightTrigger * 2 - 1, raw: model.snapshot.rightTrigger, unsigned: true)
+            axisBar("LPX", value: model.snapshot.leftPad.x)
+            axisBar("LPY", value: model.snapshot.leftPad.y)
+            axisBar("RPX", value: model.snapshot.rightPad.x)
+            axisBar("RPY", value: model.snapshot.rightPad.y)
         }
         .frame(maxWidth: .infinity)
     }
@@ -457,7 +475,7 @@ struct SteamControllerTestView: View {
             Text(label)
                 .font(OpenNOWNVIDIAFont.font(size: 10, weight: .bold))
                 .foregroundStyle(.white.opacity(0.4))
-                .frame(width: 22, alignment: .leading)
+                .frame(width: 28, alignment: .leading)
             GeometryReader { geo in
                 let barWidth = geo.size.width
                 if unsigned {
@@ -513,6 +531,10 @@ struct SteamControllerTestView: View {
             buttonStateRow("R4", active: model.snapshot.buttons.contains(.rightGrip))
             buttonStateRow("L5", active: model.snapshot.buttons.contains(.leftGrip2))
             buttonStateRow("R5", active: model.snapshot.buttons.contains(.rightGrip2))
+            buttonStateRow("LPT", active: model.snapshot.leftPad.touched)
+            buttonStateRow("RPT", active: model.snapshot.rightPad.touched)
+            buttonStateRow("LPC", active: model.snapshot.leftPad.pressed)
+            buttonStateRow("RPC", active: model.snapshot.rightPad.pressed)
         }
         .frame(maxWidth: .infinity)
     }
